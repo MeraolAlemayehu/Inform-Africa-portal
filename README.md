@@ -1,7 +1,3 @@
-Here's an updated README that reflects the manual encoding and categorization process:
-
----
-
 # **Custom Portal for Social Media Data Encoding & Disinformation Analysis**  
 
 This portal is designed to facilitate **manual data encoding and categorization** from social media platforms, enabling researchers and data encoders to visually assess content and systematically organize it for **disinformation detection** and **clean data analysis**. The portal incorporates the **DISARM framework** to ensure consistent categorization of text, video, and metadata for deeper analysis.
@@ -39,11 +35,11 @@ Encoders categorize posts based on:
 ### **Steps**  
 1. Clone the repository:  
    ```bash  
-   git clone https://github.com/yourusername/custom-portal.git  
+   git clonehttps://github.com/MeraolAlemayehu/Inform-Africa-portal  
    ```  
 2. Navigate into the project directory:  
    ```bash  
-   cd custom-portal  
+   cd Inform-Africa-portal   
    ```  
 3. Follow database setup instructions if applicable.  
 4. Start your server and access the portal in your browser.  
@@ -95,11 +91,11 @@ This project is licensed under the [MIT License](LICENSE).
 
 ## **Contact & Support**  
 For questions or support, reach out via:  
-**Name:** Your Name  
-**Email:** your.email@example.com  
+**Name:** Meraol Alemayehu,Data scientist at Inform africa
+**Email:** meralex3939@gmail.com  
 
 Feel free to open an issue or submit feedback via email.  
 
 ---  
 
-This README ensures clarity about the portal’s manual encoding process while emphasizing its role in cleaning and preparing data for advanced disinformation analysis.
+
