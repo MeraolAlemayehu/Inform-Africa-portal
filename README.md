@@ -1,101 +1,98 @@
 # **Custom Portal for Social Media Data Encoding & Disinformation Analysis**  
 
-This portal is designed to facilitate **manual data encoding and categorization** from social media platforms, enabling researchers and data encoders to visually assess content and systematically organize it for **disinformation detection** and **clean data analysis**. The portal incorporates the **DISARM framework** to ensure consistent categorization of text, video, and metadata for deeper analysis.
+This portal is a powerful tool designed to facilitate **manual data encoding and categorization** of social media content. It empowers researchers and data encoders to visually assess posts and systematically organize them for **disinformation detection** and **clean data analysis**. By integrating the **DISARM framework**, it ensures consistency in categorizing text, video, and metadata, laying the groundwork for deeper analytical insights. This portal is particularly valuable when **API access is unavailable**, ensuring a comprehensive approach to data collection and encoding.
 
 ---
 
 ## **Key Features**  
 
 ### **1. Manual Data Encoding**  
-- **Content Evaluation by Humans**: Data encoders review posts and assign categories based on content type, tone, and context.  
-- **Platform Coverage**: Works with content from platforms like **Facebook, Twitter, YouTube**, and **TikTok**, even without API access.  
+- **Content Evaluation by Humans**: Posts are meticulously reviewed by data encoders who assess tone, context, and intent, ensuring high-quality data inputs.  
+- **Multi-Platform Compatibility**: Supports data from **Facebook, Twitter, YouTube**, and **TikTok**, making it ideal for platforms with restricted API access.  
 
 ### **2. Categorization with the DISARM Framework**  
-Encoders categorize posts based on:  
-- **Narrative**: Identifies disinformation narratives.  
-- **Target Audience**: Analyzes intended audience reach.  
-- **Content Strategy**: Assesses strategic messaging approaches.  
-- **Legitimacy**: Flags suspicious or illegitimate sources.  
+Encoders systematically categorize posts based on:  
+- **Narrative**: Pinpoints disinformation narratives for precise identification.  
+- **Target Audience**: Evaluates who the content is meant to reach and influence.  
+- **Content Strategy**: Assesses messaging tactics for strategic patterns.  
+- **Legitimacy**: Flags questionable or unreliable sources for further scrutiny.  
 
 ### **3. Clean Data for Advanced Analysis**  
-- Ensures **data integrity** by encoding only relevant, contextually assessed content.  
-- Outputs **clean, structured datasets** ready for further sentiment analysis, topic modeling, and detection of disinformation patterns.  
+- **High-Integrity Data**: By manually encoding content, only contextually relevant and reliable data is retained.  
+- **Structured Datasets**: Outputs are optimized for analytical methods such as **sentiment analysis, topic modeling**, and **disinformation pattern detection**.  
 
 ### **4. Export Options**  
-- Encoded data can be exported in **JSON** or **CSV** formats for use in various analytical tools.  
+- Supports exporting in **JSON** or **CSV** formats, enabling seamless integration with external analytical tools for further research and reporting.  
 
 ---
 
 ## **Installation**  
 
 ### **Prerequisites**  
-- **PHP** and **MySQL** installation required.  
-- A web server like **Apache** or **Nginx** is recommended.  
+- **PHP** and **MySQL** are required.  
+- A web server such as **Apache** or **Nginx** is recommended.  
 
-### **Steps**  
-1. Clone the repository:  
+### **Installation Steps**  
+1. **Clone the repository**:  
    ```bash  
-   git clonehttps://github.com/MeraolAlemayehu/Inform-Africa-portal  
+   git clone https://github.com/MeraolAlemayehu/Inform-Africa-portal  
    ```  
-2. Navigate into the project directory:  
+2. **Navigate into the project directory**:  
    ```bash  
-   cd Inform-Africa-portal   
+   cd Inform-Africa-portal  
    ```  
-3. Follow database setup instructions if applicable.  
-4. Start your server and access the portal in your browser.  
+3. **Database setup**: Follow the provided instructions to configure the database.  
+4. **Start the server**: Launch your local server and access the portal via a browser.  
 
 ---
 
 ## **Usage Guide**  
 
 ### **1. Data Encoding Workflow**  
-1. **Review**: Encoders manually review posts, assessing their content and context.  
-2. **Categorize**: Assign categories (e.g., narrative, audience, legitimacy) using the portal’s guided interface.  
-3. **Save & Export**: Store encoded data in the portal for future analysis, then export in **JSON** or **CSV**.  
+1. **Manual Review**: Posts are thoroughly assessed for context and relevance.  
+2. **Categorization**: Encode each post by assigning appropriate categories such as narrative, audience, and legitimacy.  
+3. **Data Export**: Save and export the structured data for further analysis in **JSON** or **CSV** format.  
 
 ### **2. DISARM Framework Integration**  
-- Ensures systematic disinformation detection by standardizing the categorization of data across all platforms.  
+- The portal is fully aligned with the **DISARM framework**, ensuring consistency in disinformation detection across all encoded data.  
 
 ---
 
 ## **Contributing**  
 
-1. **Fork the Repository**.  
-2. **Create a Feature Branch**:  
+1. **Fork the repository**.  
+2. **Create a feature branch**:  
    ```bash  
    git checkout -b feature/your-feature-name  
    ```  
-3. **Commit Changes**:  
+3. **Commit your changes**:  
    ```bash  
    git commit -m "Add your message here"  
    ```  
-4. **Push to Branch**:  
+4. **Push the changes**:  
    ```bash  
    git push origin feature/your-feature-name  
    ```  
-5. **Submit a Pull Request** for review.  
+5. **Open a Pull Request** for review and discussion.  
 
 ---
 
 ## **Future Enhancements**  
-- **Automated categorization suggestions** using machine learning.  
-- **Real-time collaboration for data encoding teams**.  
-- **Sentiment analysis and visualization tools** for encoded datasets.  
+- **Machine Learning Integration**: Automated categorization to streamline encoding.  
+- **Collaborative Encoding**: Real-time multi-user collaboration.  
+- **Visualization Tools**: Enhance insights with graphical representations of disinformation patterns and sentiment analysis.  
 
 ---
 
 ## **License**  
-This project is licensed under the [MIT License](LICENSE).  
+This project is licensed under the **[MIT License](LICENSE)**.  
 
 ---
 
 ## **Contact & Support**  
-For questions or support, reach out via:  
-**Name:** Meraol Alemayehu,Data scientist at Inform africa
-**Email:** meralex3939@gmail.com  
+For inquiries, feedback, or support:  
+**Meraol Alemayehu**  
+Data Scientist at Inform Africa  
+**Email**: meralex3939@gmail.com  
 
-Feel free to open an issue or submit feedback via email.  
-
----  
-
-
+Feel free to open issues or reach out via email for assistance or suggestions.  
